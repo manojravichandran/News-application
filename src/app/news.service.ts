@@ -13,9 +13,14 @@ export class NewsService {
 
 
 
-  getdata(url){
+  getdatag(url){
 
-    return  this.http.get(`${apiurlg}/${url}&apiKey=${apikey}`);
+    return  this.http.get(`${apiurl}/${url}&apiKey=${apikey}`);
+    
+  }
+  getdatai(url){
+
+    return  this.http.get(`${apiurl}/${url}&apiKey=${apikey}`);
     
   }
 }

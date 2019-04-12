@@ -13,7 +13,7 @@ datas :any;
   ngOnInit() {
     
 
-    this.newsService.getdata('top-headlines?sources=google-news').subscribe(data =>{
+    this.newsService.getdatag('top-headlines?sources=google-news').subscribe(data =>{
 
       console.log(data);
       this.datas=data;
@@ -23,7 +23,7 @@ datas :any;
   doRefresh(event) {
     console.log('Begin async operation');
 
-    this.newsService.getdata('top-headlines?sources=google-news').subscribe(data =>{
+    this.newsService.getdatag('top-headlines?sources=google-news').subscribe(data =>{
 
       console.log(data);
       this.datas=data;
