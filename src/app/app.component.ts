@@ -13,7 +13,7 @@ export class AppComponent {
     {
       title: 'News Global',
       url: '/news',
-      icon: 'home'
+      icon: 'globe'
     },
     {
       title: 'Indian News',
@@ -21,9 +21,24 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'List',
+      title: 'Sports',
+      url: '/sports',
+      icon: 'tennisball'
+    },
+    {
+      title: 'Entertainment',
+      url: '/entertainment',
+      icon: 'glasses'
+    },
+    {
+      title: 'Science',
+      url: '/science',
+      icon: 'flash'
+    },
+    {
+      title: 'About Us',
       url: '/list',
-      icon: 'list'
+      icon: 'contact'
     }
   ];
 

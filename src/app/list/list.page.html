@@ -1,27 +1,43 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      List
+    About Us
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-item *ngFor="let item of items">
-      <ion-icon [name]="item.icon" slot="start"></ion-icon>
-      {{item.title}}
-      <div class="item-note" slot="end">
-        {{item.note}}
-      </div>
-    </ion-item>
-  </ion-list>
-  <!--
-    <div *ngIf="selectedItem" padding>
-      You navigated here from <b>{{selectedItem.title }}</b>
-    </div>
-  -->
+  <ion-col>
+
+      <ion-card>
+          <ion-card-header>
+            <ion-card-subtitle>Developer</ion-card-subtitle>
+            <ion-card-title>Manoj Ravichandran</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+              <ion-icon name="logo-google"></ion-icon> <h4>dvmano18@gmail.com</h4>
+          </ion-card-content>
+        </ion-card>
+        <ion-card>
+            <ion-card-header>
+              
+              <ion-card-title>Private Policy</ion-card-title>
+            </ion-card-header>
+          
+            <ion-card-content>
+                Manoj Ravichandran built the News In app as an Open Source app. 
+                 This SERVICE is provided by Manoj Ravichandran at no cost and is intended for use as is.
+
+                 This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.<br>
+        
+            </ion-card-content>
+          </ion-card>
+  
+  </ion-col>
+
+  
 </ion-content>

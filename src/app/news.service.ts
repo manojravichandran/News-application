@@ -23,4 +23,19 @@ export class NewsService {
     return  this.http.get(`${apiurl}/${url}&apiKey=${apikey}`);
     
   }
+  getdatas(url){
+
+    return  this.http.get(`${apiurl}/${url}&apiKey=${apikey}`);
+    
+  }
+  getdatae(url){
+
+    return  this.http.get(`${apiurl}/${url}&apiKey=${apikey}`);
+    
+  }
+  getdatasc(url){
+
+    return  this.http.get(`${apiurl}/${url}&apiKey=${apikey}`);
+    
+  }
 }

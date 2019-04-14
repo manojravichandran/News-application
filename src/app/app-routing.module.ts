@@ -16,7 +16,10 @@ const routes: Routes = [
     loadChildren: './list/list.module#ListPageModule'
   },
   { path: 'news', loadChildren: './news/news.module#NewsPageModule' },
-  { path: 'indian', loadChildren: './indian/indian.module#IndianPageModule' }
+  { path: 'indian', loadChildren: './indian/indian.module#IndianPageModule' },
+  { path: 'sports', loadChildren: './sports/sports.module#SportsPageModule' },
+  { path: 'entertainment', loadChildren: './entertainment/entertainment.module#EntertainmentPageModule' },
+  { path: 'science', loadChildren: './science/science.module#SciencePageModule' }
 ];
 
 @NgModule({
